@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Windows Launch Debug",
+            "program": "${workspaceFolder}/bin/debug/main.exe",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Window Launch Release",
+            "program": "${workspaceFolder}/bin/release/main.exe",
+            "type":"cppvsdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
